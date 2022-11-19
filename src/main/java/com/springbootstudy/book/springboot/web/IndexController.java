@@ -4,7 +4,6 @@ import com.springbootstudy.book.springboot.config.auth.LoginUser;
 import com.springbootstudy.book.springboot.config.auth.dto.SessionUser;
 import com.springbootstudy.book.springboot.service.posts.PostsService;
 import com.springbootstudy.book.springboot.web.dto.PostsResponseDto;
-import jdk.internal.vm.annotation.Contended;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
