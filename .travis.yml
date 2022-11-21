@@ -20,9 +20,9 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r com-springbootstudy-webservice *
+  - zip -r springbootstudy *
   - mkdir -p deploy
-  - mv com-springbootstudy-webservice.zip deploy/com-springbootstudy-webservice.zip
+  - mv springbootstudy.zip deploy/springbootstudy.zip
 
 deploy:
   - provider: s3
